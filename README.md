@@ -1,4 +1,4 @@
-# tesoro
+# Tesoro
 Tesoro is the paypal for cash and delivery.
 
 Problem: Cash on delivery is a very popular payment method for online shopping in the developing world, however, its is very costly for merchants because of the high rate of returned orders. If an ordered is not completed successfully, then merchantes need to absorb the shipping cost. 

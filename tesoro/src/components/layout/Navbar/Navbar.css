@@ -1,0 +1,27 @@
+.logo{
+    height: 32px;
+    margin-top: 16px;
+}
+
+.black{
+    color:black;
+    font-weight: bold;
+}
+
+.btn-primary-nav{
+    color: white;
+    background-color: #008255;
+    font-weight: bold;
+    margin-top: 16px;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.nav-border-bottom{
+    border-bottom: 1px solid #D8D9DA;
+}

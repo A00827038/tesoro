@@ -10,7 +10,7 @@ const LandingPage = () => {
             <div className="custom-container row mt-4">
                 <div className="col-6">
                     <h1 className="landing-title">Ofrece pago contra entrega con el costo de envío como garantía</h1>
-                    <h3 className="landing-problem mt-4">Sabemos que ofrecer pago contra entrega es costoso porque implica un índice alto de cancelaciones. Si el cliente cancela, tú tienes que paga el costo de envío.</h3>
+                    <h3 className="landing-problem mt-4">Sabemos que ofrecer pago contra entrega es costoso porque implica un índice alto de cancelaciones. Si el cliente cancela, tú tienes que pagar el costo de envío.</h3>
                 </div>
                 <div className="col-6">
                     <div className="d-flex">
@@ -34,15 +34,8 @@ const LandingPage = () => {
                 </div>
             </div>
 
-            <div className="custom-container how-it-works-section">
-                <h2>¿Cómo Funciona?</h2>
-                <div>
-                    <h4>1. Integra el botón de checkout de Tesoro en tu tienda en línea</h4>
-                    <h4>2. Tus clientes descargan nuestra aplicación</h4>
-                    <h4>3. Cuando tus clientes levanten una orden de pago contra entrega seleccionando el botón de checkout de Tesoro y autorizen la orden, se pondrá como garantía el costo del envío</h4>
-                    <h4>4. Si tu cliente completa la orden con éxito entonces el costo de envío en garantía deja de estarlo</h4>
-                    <h4>5. Si tu cliente no completa la orden entonces te depositamos el costo de envío en garantía </h4>
-                </div>
+            <div className="custom-container call-to-action-section">
+                <button className="btn-primary-landing">Solicitar</button>
             </div>
 
        </div>

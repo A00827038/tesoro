@@ -46,7 +46,23 @@
     margin-top: 128px;
 }
 
-.how-it-works-section{
+.call-to-action-section{
     text-align: center;
-    
+    margin-top: 48px;
+    margin-bottom: 108px;
 }
+
+.btn-primary-landing{
+    color: white;
+    background-color: #008255;
+    font-weight: bold;
+    margin-top: 16px;
+    border: none;
+    font-size: 24px;
+    border-radius: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+

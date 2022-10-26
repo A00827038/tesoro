@@ -1,0 +1,42 @@
+.custom-container{
+    margin-left: 64px;
+}
+
+.footer{
+    width: 100%;
+    background-color:#008255;
+    color: white;
+    padding-bottom:5%;
+}
+
+.footer-padding{
+    padding-top:50px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color:white;
+    margin-right:16px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.footer-link:hover{
+    color:white;
+}
+
+@media (max-width:600px){
+    .custom-container{
+        margin-left: 0px;
+    }
+
+    .footer{
+        width: 100%;
+        background-color:#008255;
+        color: white;
+        padding-bottom:10%;
+    }
+
+}

@@ -147,7 +147,7 @@ const LandingPage = () => {
             </div>
 
             <div className="custom-container call-to-action-section">
-                <a href="https://forms.gle/Vcsz7JkCJkg8mmxi6" target="_blank" className="btn-primary-landing">Solicitar Ahora</a>
+                <a href="https://forms.gle/Vcsz7JkCJkg8mmxi6" target="_blank" className="btn-primary-landing">Agendar Demo</a>
             </div>
 
        </div>

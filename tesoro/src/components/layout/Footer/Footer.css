@@ -4,7 +4,7 @@
 
 .footer{
     width: 100%;
-    background-color:#008255;
+    background-color:#024AAC;
     color: white;
     padding-bottom:5%;
 }
@@ -27,6 +27,10 @@
     color:white;
 }
 
+.logo{
+    height: 32px;
+}
+
 @media (max-width:600px){
     .custom-container{
         margin-left: 0px;
@@ -34,7 +38,7 @@
 
     .footer{
         width: 100%;
-        background-color:#008255;
+        background-color:#024AAC;
         color: white;
         padding-bottom:10%;
     }

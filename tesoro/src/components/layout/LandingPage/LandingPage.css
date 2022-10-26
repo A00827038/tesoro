@@ -29,7 +29,7 @@ html{
     margin-top: 70px;
     margin-left: -24px;
     position: absolute;
-    background-color: #008255;
+    background-color: #024AAC;
     color: white;
     width: 105%;
     height: 184px;
@@ -87,7 +87,7 @@ html{
 
 .how-it-works-text{
     font-size: 42px;
-    color: #008255;
+    color: #024AAC;
     margin-top: 64px;
    
 }
@@ -97,7 +97,7 @@ html{
 }
 
 .how-it-works-item{
-    background-color: #FFE0A7;
+    background-color: #E67A44;
     border-radius: 24px;
     height: 164px;
     margin-left: 10%;
@@ -107,6 +107,7 @@ html{
 
 .how-it-works-item-text{
     margin-top: 24%;
+    color: white;
 }
 
 .frequently-asked-questions{
@@ -118,7 +119,7 @@ html{
 .frequently-asked-questions-text{
     font-size: 42px;
     text-align: center;
-    color: #008255;
+    color: #024AAC;
     margin-top: 64px;
 }
 
@@ -135,7 +136,7 @@ html{
 
 .meet-the-team-text{
     font-size: 42px;
-    color: #008255;
+    color: #024AAC;
     margin-top: 64px;
 }
 
@@ -155,7 +156,7 @@ html{
     text-decoration: none;
     cursor: pointer;
     color: white;
-    background-color: #008255;
+    background-color: #024AAC;
     margin-top: 16px;
     border: none;
     font-weight: bold;
@@ -192,7 +193,7 @@ html{
         margin-top: 70px;
         margin-left: -16px;
         position: absolute;
-        background-color: #008255;
+        background-color: #024AAC;
         color: white;
         width: 105%;
         height: 148px;
@@ -225,7 +226,7 @@ html{
         margin-top: 70px;
         margin-left: -16px;
         position: absolute;
-        background-color: #008255;
+        background-color: #024AAC;
         color: white;
         width: 105%;
         height: 124px;
@@ -279,7 +280,7 @@ html{
     
     .how-it-works-text{
         font-size: 36px;
-        color: #008255;
+        color: #024AAC;
         margin-top: 64px;
        
     }
@@ -289,7 +290,7 @@ html{
     }
     
     .how-it-works-item{
-        background-color: #FFE0A7;
+        background-color: #E67A44;
         border-radius: 24px;
         height: 164px;
         margin-left: 10%;
@@ -347,7 +348,7 @@ html{
         margin-top: 70px;
         margin-left: -24px;
         position: absolute;
-        background-color: #008255;
+        background-color: #024AAC;
         color: white;
         width: 105%;
         height: 92px;
@@ -403,7 +404,7 @@ html{
     
     .how-it-works-text{
         font-size: 42px;
-        color: #008255;
+        color: #024AAC;
         margin-top: 64px;
        
     }
@@ -413,7 +414,7 @@ html{
     }
     
     .how-it-works-item{
-        background-color: #FFE0A7;
+        background-color: #E67A44;
         border-radius: 24px;
         height: 164px;
         width: 148px;
@@ -436,7 +437,7 @@ html{
     .frequently-asked-questions-text{
         font-size: 36px;
         text-align: center;
-        color: #008255;
+        color: #024AAC;
         margin-top: 64px;
     }
     
@@ -453,7 +454,7 @@ html{
     
     .meet-the-team-text{
         font-size: 36px;
-        color: #008255;
+        color: #024AAC;
         margin-top: 64px;
     }
     

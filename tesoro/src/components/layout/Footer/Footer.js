@@ -10,15 +10,15 @@ const Footer = () => {
             <div className="container-fluid custom-container footer-padding">
                 {/* Logo */}
                 <div>
-                    <h2>Tesoro</h2>
+                    <img src="/img/alaz_logo_blue_bg.png" className="logo" alt=""/>
                 </div>
 
                 <div className="row mt-5">
                     {/* Contact Information */}
                     <div className="col-7 col-md-3">
                         <h4>Contacto</h4>
-                        <p>Email: fdoddolilankenau@gmail.com</p>
-                        <p>Teléfono: +52 81154495</p>
+                        <p>Email: contacto@alaz.io</p>
+                        <p>Teléfono: +52 8124220343</p>
                         <div>
                             <a target="_blank" href="" className="footer-link"><i className="bi bi-instagram"></i></a>
                             <a target="_blank" href="" className="footer-link"><i className="bi bi-youtube ms-3"></i></a>

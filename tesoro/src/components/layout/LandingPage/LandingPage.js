@@ -15,20 +15,20 @@ const LandingPage = () => {
                 </div>
                 <div className="col-6 no-display-mobile">
                     <div className="d-flex">
-                        <img src="img/order_checkout_tesoro.png" className="landing-main-imgs me-5" alt=""/>
-                        <img src="img/order_validation_tesoro.png" className="landing-main-imgs mt-5" alt=""/>
+                        <img src="img/order_checkout_alaz.png" className="landing-main-imgs me-5" alt=""/>
+                        <img src="img/order_validation_alaz.png" className="landing-main-imgs mt-5" alt=""/>
                     </div>
                 </div>
                 <div className="col-12 no-display-md">
                     <div className="d-flex">
-                        <img src="img/order_validation_tesoro.png" className="landing-main-imgs mt-5" alt=""/>
+                        <img src="img/order_validation_alaz.png" className="landing-main-imgs mt-5" alt=""/>
                     </div>
                 </div>
             </div>
             
             {/* Is it for me? */}
             <div className="green-section">
-                <h2 className="green-section-text">Razones para Utilizar Tesoro</h2>
+                <h2 className="green-section-text">Razones para Utilizar Alaz</h2>
             </div>
 
             <div className="custom-container trust-section">
@@ -65,7 +65,7 @@ const LandingPage = () => {
                 
                 <div className="row how-it-works-items">
                     <div className="col-4 col-md-2 how-it-works-item">
-                        <h6 className="how-it-works-item-text">1 <br></br> Integra el API de tesoro en tu checkout</h6>
+                        <h6 className="how-it-works-item-text">1 <br></br> Integra el API de Alaz en tu checkout</h6>
                     </div>
                     <div className="col-4 col-md-2 how-it-works-item">
                         <h6 className="how-it-works-item-text">2 <br></br> Llama al API con la información de tu cliente</h6>
@@ -80,7 +80,7 @@ const LandingPage = () => {
                         <h6 className="how-it-works-item-text">5 <br></br> Tu cliente completa su orden</h6>
                     </div>
                     <div className="col-4 col-md-2 how-it-works-item">
-                        <h6 className="how-it-works-item-text">6 <br></br> Si la orden se cancela Tesoro te reembolsa el costo de envío</h6>
+                        <h6 className="how-it-works-item-text">6 <br></br> Si la orden se cancela Alaz te reembolsa el costo de envío</h6>
                     </div>
                 </div>
             </div>
@@ -104,17 +104,17 @@ const LandingPage = () => {
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="flush-headingTwo">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                ¿Cómo le pago a Tesoro la prima para asegurar el envío?
+                                ¿Cómo le pago a Alaz la prima para asegurar el envío?
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div className="accordion-body">Una vez que realizas una orden, el costo de la prima automáticamente se reduce de tu balance de fondos que tienes en tu cuenta de Tesoro.</div>
+                            <div className="accordion-body">Una vez que realizas una orden, el costo de la prima automáticamente se reduce de tu balance de fondos que tienes en tu cuenta de Alaz.</div>
                         </div>
                     </div>
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="flush-headingThree">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                ¿Cómo me reembolsa Tesoro el costo del envío?
+                                ¿Cómo me reembolsa Alaz el costo del envío?
                             </button>
                         </h2>
                         <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -141,7 +141,7 @@ const LandingPage = () => {
                 
                 <div className="mt-5">
                     <iframe className="meet-the-team-video" frameborder="0" allowfullscreen
-                        src="https://www.youtube.com/embed/g2aWyQGk32E">
+                        src="https://www.youtube.com/embed/igrOfI38lTo">
                     </iframe>
                 </div>
             </div>

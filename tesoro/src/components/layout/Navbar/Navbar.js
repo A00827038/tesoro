@@ -11,10 +11,10 @@ const Navbar = () => {
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                         <Link to="/">
-                            <img src="/img/tesoro_logo_mixto.png" className="logo" alt=""/>
+                            <img src="/img/alaz_logo.png" className="logo" alt=""/>
                         </Link>
                         {/* Main Nav */}
-                        <div class="collapse navbar-collapse justify-content-center mt-3" id="main-nav">
+                        <div class="collapse navbar-collapse justify-content-center mt-3 mb-3 mb-md-0" id="main-nav">
                             <ul className="navbar-nav nav-black-text">
                                 <li className="nav-item ms-0 ms-md-3">
                                     <a href="#how-it-works" className="nav-link"><span className="black">Cómo Funciona</span></a>

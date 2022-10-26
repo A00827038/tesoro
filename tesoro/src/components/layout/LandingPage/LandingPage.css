@@ -38,7 +38,7 @@ html{
 
 .green-section-text{
     margin-top: 64px;
-    font-size: 42px;
+    font-size: 36px;
 }
 
 .trust-section{
@@ -158,6 +158,7 @@ html{
     background-color: #008255;
     margin-top: 16px;
     border: none;
+    font-weight: bold;
     font-size: 18px;
     border-radius: 32px;
     padding-left: 48px;

@@ -30,8 +30,8 @@ const Navbar = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div>
-                            <button className="btn-primary-nav">Solicitar</button>
+                        <div className="mt-3">
+                            <a href="https://forms.gle/Vcsz7JkCJkg8mmxi6" target="_blank" className="btn-primary-nav">Agendar Demo</a>
                         </div>
                     </div>
                 </nav>

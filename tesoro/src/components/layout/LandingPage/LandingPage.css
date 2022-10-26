@@ -1,5 +1,13 @@
+html{
+    overflow-x: hidden;
+}
+
 .custom-container{
     margin-left: 64px;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .landing-title{
@@ -19,17 +27,18 @@
 
 .green-section{
     margin-top: 70px;
+    margin-left: -24px;
     position: absolute;
     background-color: #008255;
     color: white;
-    width: 100%;
-    height: 204px;
+    width: 105%;
+    height: 184px;
     text-align: center;
 }
 
 .green-section-text{
-    margin-top: 72px;
-    font-size: 36px;
+    margin-top: 64px;
+    font-size: 42px;
 }
 
 .trust-section{
@@ -37,32 +46,429 @@
 }
 
 .trust-img{
-    height: 464px;
+    height: 392px;
+    width: 90%;
+    border-radius: 24px;
+}
+
+.no-display-md{
+    display:none;
+}
+
+.trust-text-title{
+    font-weight: bold;
+    font-size: 42px;
 }
 
 .trust-text{
-    margin-left: 64px;
-    width: 80%;
-    margin-top: 128px;
+    margin-left: 0px;
+    width: 90%;
+    margin-top: 90px;
+}
+
+.trust-section-1{
+    margin-top: 64px;
+}
+
+.trust-section-2{
+    margin-top: 204px;
+}
+
+.how-it-works{
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    background-color: #F5F5F7;
+    border-radius: 24px;
+    margin-top: 164px;
+    height: 648px;
+    
+}
+
+.how-it-works-text{
+    font-size: 42px;
+    color: #008255;
+    margin-top: 64px;
+   
+}
+
+.how-it-works-items{
+    margin-left: 10%;
+}
+
+.how-it-works-item{
+    background-color: #FFE0A7;
+    border-radius: 24px;
+    height: 164px;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.how-it-works-item-text{
+    margin-top: 24%;
+}
+
+.frequently-asked-questions{
+    position:relative;
+    width: 90%;
+    padding-top: 864px;
+}
+
+.frequently-asked-questions-text{
+    font-size: 42px;
+    text-align: center;
+    color: #008255;
+    margin-top: 64px;
+}
+
+.accordion-body{
+    text-align: left;
+}
+
+.meet-the-team{
+    position:relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 124px;
+}
+
+.meet-the-team-text{
+    font-size: 42px;
+    color: #008255;
+    margin-top: 64px;
+}
+
+.meet-the-team-video{
+    height: 524px;
+    width: 692px;
 }
 
 .call-to-action-section{
     text-align: center;
     margin-top: 48px;
+    width: 90%;
     margin-bottom: 108px;
 }
 
 .btn-primary-landing{
+    text-decoration: none;
+    cursor: pointer;
     color: white;
     background-color: #008255;
-    font-weight: bold;
     margin-top: 16px;
     border: none;
-    font-size: 24px;
-    border-radius: 24px;
+    font-size: 18px;
+    border-radius: 32px;
     padding-left: 48px;
     padding-right: 48px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+   
 }
+
+.btn-primary-landing:hover{
+    color: white;
+}
+
+@media (max-width:1200px){
+    .landing-title{
+        font-size: 42px;
+        margin-top: 128px;
+    }
+
+    .landing-main-imgs{
+        height: 492px;
+        width: 224px;
+    }
+    
+    .landing-problem{
+        color: #9B9B9B;
+        font-size: 18px;
+    }
+
+    .green-section{
+        margin-top: 70px;
+        margin-left: -16px;
+        position: absolute;
+        background-color: #008255;
+        color: white;
+        width: 105%;
+        height: 148px;
+        text-align: center;
+    }
+    
+    .green-section-text{
+        margin-top: 56px;
+        font-size: 32px;
+    }
+}
+
+@media (max-width:1050px){
+    .landing-title{
+        font-size: 36px;
+        margin-top: 128px;
+    }
+
+    .landing-main-imgs{
+        height: 424px;
+        width: 192px;
+    }
+    
+    .landing-problem{
+        color: #9B9B9B;
+        font-size: 18px;
+    }
+
+    .green-section{
+        margin-top: 70px;
+        margin-left: -16px;
+        position: absolute;
+        background-color: #008255;
+        color: white;
+        width: 105%;
+        height: 124px;
+        text-align: center;
+    }
+    
+    .green-section-text{
+        margin-top: 42px;
+        font-size: 28px;
+    }
+
+    .trust-section{
+        padding-top: 292px;
+    }
+    
+    .trust-img{
+        height: 324px;
+        width: 90%;
+        border-radius: 24px;
+    }
+    
+    .trust-text-title{
+        font-weight: bold;
+        font-size: 36px;
+    }
+    
+    .trust-text{
+        margin-left: 0px;
+        width: 90%;
+        margin-top: 72px;
+    }
+    
+    .trust-section-1{
+        margin-top: 48px;
+    }
+    
+    .trust-section-2{
+        margin-top: 164px;
+    }
+
+    .how-it-works{
+        position: absolute;
+        text-align: center;
+        width: 86%;
+        background-color: #F5F5F7;
+        border-radius: 24px;
+        margin-top: 164px;
+        height: 648px;
+        
+    }
+    
+    .how-it-works-text{
+        font-size: 36px;
+        color: #008255;
+        margin-top: 64px;
+       
+    }
+    
+    .how-it-works-items{
+        margin-left: 8%;
+    }
+    
+    .how-it-works-item{
+        background-color: #FFE0A7;
+        border-radius: 24px;
+        height: 164px;
+        margin-left: 10%;
+        text-align: center;
+        margin-top: 64px;
+    }
+    
+    .how-it-works-item-text{
+        font-size: 16px;
+        margin-top: 24%;
+    }
+}
+
+@media (max-width:600px){
+
+    .container-fluid .custom-container{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .custom-container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .landing-title{
+        font-size: 42px;
+        margin-top: 64px;
+        text-align: center;
+    }
+
+    .landing-main-imgs{
+        height: 592px;
+        width: 80%;
+        margin-left: 36px;
+        text-align: center;
+    }
+
+    .no-display-md{
+        display:inline-block;
+    }
+    
+    .landing-problem{
+        color: #9B9B9B;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .no-display-mobile{
+        display: none;
+    }
+
+    .green-section{
+        margin-top: 70px;
+        margin-left: -24px;
+        position: absolute;
+        background-color: #008255;
+        color: white;
+        width: 105%;
+        height: 92px;
+        text-align: center;
+    }
+    
+    .green-section-text{
+        margin-top: 36px;
+        font-size: 18px;
+    }
+
+    .trust-section{
+        padding-top: 192px;
+    }
+    
+    .trust-img{
+        height: 292px;
+        width: 92%;
+        margin-left: 4%;
+        border-radius: 24px;
+    }
+    
+    .trust-text-title{
+        font-weight: bold;
+        font-size: 28px;
+    }
+    
+    .trust-text{
+        margin-left: 0px;
+        width: 94%;
+        margin-left: 4%;
+        margin-top: 48px;
+    }
+    
+    .trust-section-1{
+        margin-top: 48px;
+    }
+    
+    .trust-section-2{
+        margin-top: 72px;
+    }
+
+    .how-it-works{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        background-color: white;
+        border-radius: 0px;
+        margin-top: 92px;
+        height: 100%;
+        
+    }
+    
+    .how-it-works-text{
+        font-size: 42px;
+        color: #008255;
+        margin-top: 64px;
+       
+    }
+    
+    .how-it-works-items{
+        margin-left: 0%;
+    }
+    
+    .how-it-works-item{
+        background-color: #FFE0A7;
+        border-radius: 24px;
+        height: 164px;
+        width: 148px;
+        margin-left: 8%;
+        text-align: center;
+        margin-top: 48px;
+    }
+    
+    .how-it-works-item-text{
+        margin-top: 24%;
+    }
+
+    .frequently-asked-questions{
+        position:relative;
+        width: 90%;
+        padding-top: 0px;
+        margin-top: 92px;
+    }
+    
+    .frequently-asked-questions-text{
+        font-size: 36px;
+        text-align: center;
+        color: #008255;
+        margin-top: 64px;
+    }
+    
+    .accordion-body{
+        text-align: left;
+    }
+    
+    .meet-the-team{
+        position:relative;
+        width: 100%;
+        text-align: center;
+        margin-top: 124px;
+    }
+    
+    .meet-the-team-text{
+        font-size: 36px;
+        color: #008255;
+        margin-top: 64px;
+    }
+    
+    .meet-the-team-video{
+        height: 224px;
+        width: 90%;
+    }
+
+    .call-to-action-section{
+        text-align: center;
+        margin-top: 92px;
+        width: 90%;
+        margin-bottom: 108px;
+    }
+
+
+}
+
 

@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route} from 'react-router-dom';
 
 import LandingPage from './components/layout/LandingPage/LandingPage';
 import Navbar from './components/layout/Navbar/Navbar';
+import Footer from './components/layout/Footer/Footer';
 
 class App extends Component {
   
@@ -15,6 +16,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={LandingPage} />
           </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );
